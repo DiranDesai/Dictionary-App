@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Nunito+Sans:wght@500&family=Roboto:ital,wght@0,300;0,700;1,500&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.app-container{
+    max-width: 600px;
+    margin: 0rem auto;
+    /* border: 2px solid #5723f5; */
+    padding: 2rem;
+    height: 700px;
+    border-radius: 10%;
+}
+
+.header{
+    margin: 2rem 0;
+    text-align: center;
+    font-weight: 700;
+}
+.header span:first-child{
+    color: #556e83;
+}
+.header span:last-child{
+    color: #7f7de2;
+}
+
+.word{
+    font-weight: 700;
+}
+.speech{
+    font-style: italic;
+    font-size: large;
+}
+#word-input{
+    border-radius: 20px !important;
+    background-color: #e6e5f0;
+    border: none;
+}
+#word-input:focus{
+    outline: none !important;
+}
+.play-btn{
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #dea2d8;
+    color: #a345a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meanings li::marker{
+    color: pink;
+}
